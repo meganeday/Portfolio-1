@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiHtml5,
   DiCss3,
@@ -12,7 +11,6 @@ import {
   DiGit,
   DiPostgresql
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
