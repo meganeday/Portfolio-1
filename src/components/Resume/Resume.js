@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/day,meganelizabeth-resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -30,7 +29,6 @@ function Resume() {
 
   return (
     <Container fluid className="resume-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
@@ -42,14 +40,27 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Childcare Provider"
+              date="2018 - 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Lovingly provided hands-on solutions and care to demanding clients between the ages of 6 months - 9 years.",
+                "Carefully followed parents' expectations and requirements with agility; troubleshot care plans accordingly.",
+                "Fostered safety and assessed quality of environment for a child with special needs.",
+                "Regularly exercised resilience, attention to detail, and de-escalation.",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <Resumecontent
+              title="Project Manager &amp; Keyholder"
+              date="2016 - 2018"
+              content={[
+                "Built a custom CRM using Microsoft SharePoint to manage client interaction lifecycle, which increased client retention by 20%.",                "Carefully followed parents' expectations and requirements with agility; troubleshot care plans accordingly.",
+                "Analyzed company's online store and utilized Shopify's front-end software to streamline customers' user experience.",
+                "Managed robust inventory system to ensure the availability of raw ingredients used for in-house production of skincare and beauty products.",
+                "Successfully supervised and collaborated across an 8-person team in preparation and execution of off-site retail events.",
+                "Anticipated customer needs and provided high quality service while upholding brand standards and values both in-person and via the company's social media platforms.",
+              ]}
+            />
+            {/* <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
               content={[
@@ -61,35 +72,33 @@ function Resume() {
               content={[
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
-            />
+            /> */}
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            />
-            <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
-            />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
+              title="Software Engineering Immersive at Flatiron School"
+              date="August 2021"
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                "15 week intensive coding bootcamp to learn fullstack software engineering.", 
+                "Participated in lectures, workshops, & pair programming projects."
               ]}
             />
+            <Resumecontent
+              title="BA in Writing for Performance at Columbia College Chicago"
+              date="May 2018"
+              content={["summa cum laude"]}
+            />
+       
+            {/* <h3 className="resume-title">Ranks and Achivements</h3>
+            {/* <Resumecontent
+              title=""
+              content={[
+                `Graduated summa cum laude from Columbia College Chicago`,
+                `Current rank in HackerRank  ${hackerrank}`,
+              ]}
+            /> */}
+
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

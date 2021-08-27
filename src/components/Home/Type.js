@@ -10,7 +10,7 @@ function Type() {
           "Cat Mom",
           "Web Designer",
           "Rabbit Hole Voyager",
-          "Expert Googler"
+          "Professional Googler",
         ],
         autoStart: true,
         loop: true,

@@ -4,6 +4,8 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMedium,
+  AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -12,14 +14,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © 2021 Megan Day</h3>
+          <h3>Copyright © 2021 Megan Elizabeth Day</h3>
         </Col>
         <Col />
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/meganeday"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -29,7 +31,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/codewithmeg"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -39,7 +41,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/meganeday/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -49,12 +51,21 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                href="https://codewithmeg.medium.com/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <AiOutlineMedium />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto: meganeday7@gmail.com"
+                style={{ color: "white" }}
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
               </a>
             </li>
           </ul>

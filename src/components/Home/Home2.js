@@ -13,8 +13,6 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I graduated from Columbia College Chicago in 2018 with a BA in Writing for Performance. I never thought I would find something I was more passionate about than writing--that is until early on in 2020 when I challenged myself to learn a new skill: coding.
-              <br />
               <br />In 2021, I studied Software Engineering at Flatiron School, and I've built apps using
               <i>
                 <b className="purple"> Javascript, React.js, Postgres, and Ruby on Rails. </b>
