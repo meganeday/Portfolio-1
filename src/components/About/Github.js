@@ -5,12 +5,12 @@ import { Row } from "react-bootstrap";
 function Github() {
   const colourTheme = {
     background: "transparent",
-    text: "#ffffff",
-    grade4: "#3A8992",
-    grade3: "#49ACB7",
-    grade2: "#8AC9D0",
-    grade1: "#A7D8DC",
-    grade0: "#E2F1F3",
+    text: "#0E0906",
+    grade4: "#17373A",
+    grade3: "#347B83",
+    grade2: "#5FB4BF",
+    grade1: "#A7D7DC",
+    grade0: "#F0F8F9",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
