@@ -8,9 +8,10 @@ function Type() {
         strings: [
           "Fullstack Developer",
           "Cat Mom",
-          "Web Designer",
-          "Rabbit Hole Voyager",
+          "Salesforce Commerce Cloud Developer",
           "Professional Googler",
+          "Frontend Web Designer",
+          "Rabbit Hole Voyager",
         ],
         autoStart: true,
         loop: true,

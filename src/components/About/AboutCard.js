@@ -9,9 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi there! I'm <span className="purple">Megan Elizabeth Day</span>
-            <br />I'm a Fullstack Software Engineer from <span className="purple"> Chicago, IL</span>
+            <br />I'm Front-End Software Engineer from <span className="purple"> Chicago, IL</span>
             <br />
-            <br />I graduated from Columbia College Chicago in 2018 with a BA in Writing for Performance. I never thought I would find something I was more passionate about than writing--that is until early on in 2020 when I challenged myself to learn a new skill: coding.
+            <br />I graduated from Flatiron School's Fullstack Software Engineering Immersive Bootcamp in 2021, and since then I've been challenging myself to learn the ins and outs of front-end development. I'm extremely passionate about creating unique, memorable web experiences while paying mind to the user and ADA compliance.
+            <br />
+            <br /> Currently I work as a Front-End Developer utilizing Salesforce Commerce Cloud to help clients refine and optimize user experiences on their online commerce platforms.
             <br />
             <br />
             Beyond coding, I love:

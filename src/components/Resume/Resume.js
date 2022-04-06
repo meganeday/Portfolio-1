@@ -20,6 +20,18 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="Salesforce Ecommerce Frontend Developer"
+              date="2021 - present"
+              content={[
+                "Participated in a 3 month full-stack training program to learn Salesforce B2C Ecommerce for Developers.",                "Carefully followed parents' expectations and requirements with agility; troubleshot care plans accordingly.",
+                "Completed all assigned tickets in a timely manner utilizing knowledge of frontend design patterns and frameworks.",
+                "Provided QA on all assigned tickets and completed code reviews and QA for team's development solutions.",
+                "Debugged frontend issues for post-production clients, which increased client retention by 20%.",
+                "Participated in daily scrum calls and weekly sprint planning meetings.",
+                "Successfully supervised and collaborated across a 15-person team in preparation and execution of weekly development sprints.",
+              ]}
+            />
+            <Resumecontent
               title="Childcare Provider"
               date="2018 - 2021"
               content={[
