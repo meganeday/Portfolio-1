@@ -9,7 +9,7 @@ import {
   DiRuby,
   DiRor,
   DiGit,
-  DiPostgresql
+  DiPostgresql,
 } from "react-icons/di";
 
 function Techstack() {
