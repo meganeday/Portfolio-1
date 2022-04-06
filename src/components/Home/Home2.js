@@ -13,9 +13,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />In 2021, I studied Software Engineering at Flatiron School, and I've built apps using
+              <br />I started learning to code in 2020, and I now work as a 
               <i>
-                <b className="purple"> Javascript, React.js, Postgres, and Ruby on Rails. </b>
+                <b className="purple" > Front-End Salesforce Commerce Cloud Developer  </b>
+              </i> 
+              to help clients refine and optimize their online commerce platforms using
+              <i>
+                <b className="purple"> SFCC, Javascript, and Sass. </b>
               </i>
               <br />
               <br />
@@ -33,7 +37,7 @@ function Home2() {
               </i>
               &nbsp; as a
               <i>
-                <b className="purple"> Junior Software Engineer.</b>
+                <b className="purple"> Front-End Software Engineer.</b>
               </i>
             </p>
           </Col>
