@@ -13,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3> © 2022 Megan Elizabeth Day</h3>
+          <h3> © 2023 Megan Day</h3>
         </Col>
         <Col />
         <Col md="4" className="footer-body">

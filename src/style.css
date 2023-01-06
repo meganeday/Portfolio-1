@@ -8,7 +8,7 @@ div {
 }
 
 html {
-  --imp-text-color: #F5A83F;
+  --imp-text-color: #c0855c;
 }
 
 .purple {
@@ -50,18 +50,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #49ACB7;
+  background: #264f53;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #9ECFD1;
+  background: #b9ccc9;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #F5A83F;
+  background: #c0855c;
   border-radius: 12px;
 }
 
@@ -91,7 +91,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #F5A83F !important;
+  background-color: #c0855c !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -188,7 +188,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #F5A83F;
+  background: #c0855c;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -275,17 +275,17 @@ html {
 }
 
 .main-name {
-  color: #49ACB7;
+  color: #c0855c;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #9ECFD1 !important;
+  color: #b9ccc9 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #9ECFD1 !important;
+  color: #b9ccc9 !important;
 }
 
 @media (max-width: 767px) {
@@ -369,7 +369,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #49ACB7;
+  background: #264f53;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -377,13 +377,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #49ACB7;
+  box-shadow: 0 0 15px #264f53;
 }
 
 .home-social-icons:hover {
-  color: #49ACB7;
-  box-shadow: 0 0 5px #49ACB7;
-  text-shadow: 0 0 2px #49ACB7;
+  color: #264f53;
+  box-shadow: 0 0 5px #264f53;
+  text-shadow: 0 0 2px #264f53;
 }
 
 .social-icons {
@@ -393,7 +393,7 @@ html {
 }
 
 .icon-colour {
-  color: #49ACB7 !important;
+  color: #264f53 !important;
 }
 
 /* --------- */
@@ -436,7 +436,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #F5A83F !important;
+  color: #c0855c !important;
 }
 /* --------- */
 /* Projects */
@@ -457,7 +457,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #49ACB7 !important;
+  box-shadow: 0 4px 5px 3px #264f53 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -467,7 +467,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #49ACB7 !important;
+  box-shadow: 0 4px 4px 5px #264f53 !important;
 }
 
 .blog-card {
@@ -480,7 +480,7 @@ html {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px #49ACB7 !important;
+  box-shadow: 0 3px 3px 2px #264f53 !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -515,14 +515,14 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #49ACB7 !important;
-  border-color: #49ACB7 !important;
+  background-color: #264f53 !important;
+  border-color: #264f53 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #49ACB7 !important;
-  border-color: #49ACB7 !important;
+  background-color: #b9ccc9 !important;
+  border-color: #b9ccc9 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -553,12 +553,12 @@ html {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #49ACB7 !important;
+  border: 1.7px solid #264f53 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px #9ECFD1 !important;
+  box-shadow: 4px 5px 4px 3px #b9ccc9 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -572,7 +572,7 @@ html {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid #49ACB7 !important;
+  border: 2.2px solid #264f53 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -641,14 +641,14 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #49ACB7;
+  border-left: 2px solid #c0855c;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: rgba(245, 169, 63, 0.507);
+  background: #b9ccc9;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -678,7 +678,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #49ACB7;
+  border: 2px solid #c0855c;
 }
 
 .like-item {
@@ -688,8 +688,8 @@ html {
 }
 
 .like-btn {
-  background-color: #49ACB7 !important;
-  border-color: #49ACB7 !important;
+  background-color: #264f53 !important;
+  border-color: #264f53 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -723,7 +723,7 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #49ACB7 !important;
+  background-color: #264f53 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
