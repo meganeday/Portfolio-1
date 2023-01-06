@@ -41,17 +41,6 @@ function Resume() {
                 "Regularly exercised resilience, attention to detail, and de-escalation.",
               ]}
             />
-            <Resumecontent
-              title="Project Manager &amp; Keyholder"
-              date="2016 - 2018"
-              content={[
-                "Built a custom CRM using Microsoft SharePoint to manage client interaction lifecycle, which increased client retention by 20%.",                "Carefully followed parents' expectations and requirements with agility; troubleshot care plans accordingly.",
-                "Analyzed company's online store and utilized Shopify's front-end software to streamline customers' user experience.",
-                "Managed robust inventory system to ensure the availability of raw ingredients used for in-house production of skincare and beauty products.",
-                "Successfully supervised and collaborated across an 8-person team in preparation and execution of off-site retail events.",
-                "Anticipated customer needs and provided high quality service while upholding brand standards and values both in-person and via the company's social media platforms.",
-              ]}
-            />
             {/* <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
@@ -67,29 +56,23 @@ function Resume() {
             /> */}
           </Col>
           <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
+            <h3 className="resume-title">Certifications & Achievements</h3>
             <Resumecontent
-              title="Software Engineering Immersive at Flatiron School"
-              date="August 2021"
-              content={[
-                "15 week intensive coding bootcamp to learn fullstack software engineering.", 
-                "Participated in lectures, workshops, & pair programming projects."
-              ]}
+              title="Salesforce Certified B2C Commerce Developer"
+              date="October 2022"
+              content={[]}
             />
+            <Resumecontent
+              title="Software Engineering Immersive Bootcamp, Flatiron School"
+              date="August 2021"
+              content={[]}
+            />
+            <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="BA in Writing for Performance at Columbia College Chicago"
               date="May 2018"
               content={["summa cum laude"]}
             />
-       
-            {/* <h3 className="resume-title">Ranks and Achivements</h3>
-            {/* <Resumecontent
-              title=""
-              content={[
-                `Graduated summa cum laude from Columbia College Chicago`,
-                `Current rank in HackerRank  ${hackerrank}`,
-              ]}
-            /> */}
 
           </Col>
         </Row>

@@ -11,9 +11,9 @@ function AboutCard() {
             Hi there! I'm <span className="purple">Megan 💻 💫</span>
             <br />I'm a Front-End Software Developer from <span className="purple"> Chicago, IL</span>
             <br />
-            <br />I graduated from Flatiron School's Fullstack Software Engineering Immersive Bootcamp in 2021, where I discovered my passion for creating unique, memorable user experiences on the web.
+            <br />In 2021, I attended a Software Engineering Bootcamp where I discovered my passion for creating unique, memorable user experiences on the web.
             <br />
-            <br /> Currently I work as a Front-End Developer utilizing Salesforce Commerce Cloud to help clients refine and optimize user experiences on their online commerce platforms.
+            <br />Currently I work as a Front-End Developer utilizing Salesforce Commerce Cloud to help clients refine and optimize user experiences on their online commerce platforms.
             <br />
             <br />
             Beyond coding, I love:
@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Building Houses in The Sims 4 🏡
             </li>
             <li className="about-activity">
-              <ImPointRight /> Creative Writing of All Sorts 📝
+              <ImPointRight /> Reading Fantasy & Mystery Novels 📚
             </li>
             <li className="about-activity">
               <ImPointRight /> My 2 cats, Bea &amp; Denna 🐱🐱
