@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             <br />In 2021, I attended a Software Engineering Bootcamp where I discovered my passion for creating unique, memorable user experiences on the web.
             <br />
-            <br />Currently I work as a Front-End Developer utilizing Salesforce Commerce Cloud to help clients refine and optimize user experiences on their online commerce platforms.
+            <br />Currently I work as a Salesforce B2C Commerce Front-End Developer helping clients refine and optimize user experiences on their e-commerce platforms.
             <br />
             <br />
             Beyond coding, I love:
