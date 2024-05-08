@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="Impasta Syndrome"
               description="An app for storing and sorting through gluten-free recipes. Built with HTML, CSS, React.js, Postgres, Ruby on Rails, and JSON Web Token."
-              link="https://github.com/meganeday/impasta-syndrome-frontend"
+              link="https://github.com/meganhubbert/impasta-syndrome-frontend"
             />
           </Col>
 

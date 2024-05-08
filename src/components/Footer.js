@@ -13,14 +13,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3> © 2023 Megan Day</h3>
+          <h3> © 2024 Megan Hubbert</h3>
         </Col>
         <Col />
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/meganeday"
+                href="https://github.com/meganhubbert"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/meganeday/"
+                href="https://www.linkedin.com/in/meganhubbert/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -60,7 +60,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto: meganeday7@gmail.com"
+                href="mailto: meganhubbert@gmail.com"
                 style={{ color: "white" }}
                 rel="noopener noreferrer"
               >
